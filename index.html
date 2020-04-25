@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <link id="style" rel="stylesheet" type="text/css" href="light.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KALC BY DANNY BROUGHTON</title>
+
+</head>
+<body>
+
+    <div id="kalcBody" class="kalcBody">
+
+        <P class="logo">KALC</P>
+
+        <div class="toggle-container">
+            <p>DARK</p>
+            <label class="switch">
+                <input id="checkbox" type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <div class="result">
+            <div class="history">
+                <p id="history-value"></p>
+            </div>
+            <div class="output">
+                <p id="output-value">0</p>
+            </div>
+        </div>
+
+        <div class="keypadContainer">
+            <div class="box1">
+                <Button class="btn operator" id="clear" type="button">C</Button>
+            </div>
+            <div class="box2">
+                <Button class="btn operator" id="/" type="button">÷</Button>
+            </div>
+            <div class="box3">
+                <Button class="btn operator" id="*" type="button">x</Button>
+            </div>
+            <div class="box4">
+                <Button class="btn operator" id="backspace" type="button"><</Button>
+            </div>
+            <div class="box5">
+                <Button class="btn number" id="7" type="button">7</Button>
+            </div>
+            <div class="box6">
+                <Button class="btn number" id="8" type="button">8</Button>
+            </div>
+            <div class="box7">
+                <Button class="btn number" id="9" type="button">9</Button>
+            </div>
+            <div class="box8">
+                <Button class="btn operator" id="-" type="button">-</Button>
+            </div>
+            <div class="box9">
+                <Button class="btn number" id="4" type="button">4</Button>
+            </div>
+            <div class="box10">
+                <Button class="btn number" id="5" type="button">5</Button>
+            </div>
+            <div class="box11">
+                <Button class="btn number" id="6" type="button">6</Button>
+            </div>
+            <div class="box12">
+                <Button class="btn operator" id="+" type="button">+</Button>
+            </div>
+            <div class="box13">
+                <Button class="btn number" id="1" type="button">1</Button>
+            </div>
+            <div class="box14">
+                <Button class="btn number" id="2" type="button">2</Button>
+            </div>
+            <div class="box15">
+                <Button class="btn number" id="3" type="button">3</Button>
+            </div>
+            <div class="box16">
+                <Button class="btn btnTall operator" id="=" type="button">=</Button>
+            </div>
+            <div class="box17">
+                <Button class="btn btnWide number" id="0" type="button">0</Button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="Kalc.js"></script>
+
+</body>
+</html>
